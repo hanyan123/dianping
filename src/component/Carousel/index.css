@@ -1,0 +1,33 @@
+ul,li{ margin: 0; padding: 0; list-style: none}
+.swiperBox{ width: 100%; position: relative; padding-bottom: 10px}
+.swiperDian{ position: absolute;
+    bottom: 10px; 
+    text-align: center;
+    width: 100%;
+    line-height: 10px;
+}
+.swiperDian span{
+    background: #ccc; 
+    display: inline-block;
+    border-radius: 4px;
+    width: 8px;
+    height: 8px;
+    margin-right: 3px;
+}
+
+.swiperDian span.active{
+    background: #f5734b
+}
+
+.navItems{ padding: 0 10px;}
+.navItems ul{ overflow: hidden;}
+.navItems ul .items { width: 20%; float: left; padding-top: 13px; height: 87px;}
+.navItems ul .items img{ display: block;    width: 44px;
+    height: 44px;
+    margin: 0 auto 2px;}
+.items p{color: #333;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-size: 13px; text-align: center
+}    

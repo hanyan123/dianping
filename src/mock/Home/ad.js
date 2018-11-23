@@ -1,0 +1,32 @@
+module.exports = [
+    {
+        title:'暑假五折',
+        imgurl:'http://p1.meituan.net/deal/c33472e2dd085a8f6c9085def7b7f2ea79995.jpg.webp@120w_90h_1e_1c_1l%7Cwatermark=1&&r=1&p=9&x=20&y=20',
+        link:'http://www.baidu.com'
+    },
+    {
+        title:'暑假五折',
+        imgurl:'http://p1.meituan.net/deal/c33472e2dd085a8f6c9085def7b7f2ea79995.jpg.webp@120w_90h_1e_1c_1l%7Cwatermark=1&&r=1&p=9&x=20&y=20',
+        link:'http://www.baidu.com'
+    },
+    {
+        title:'暑假五折',
+        imgurl:'http://p1.meituan.net/deal/c33472e2dd085a8f6c9085def7b7f2ea79995.jpg.webp@120w_90h_1e_1c_1l%7Cwatermark=1&&r=1&p=9&x=20&y=20',
+        link:'http://www.baidu.com'
+    },
+    {
+        title:'暑假五折',
+        imgurl:'http://p1.meituan.net/deal/c33472e2dd085a8f6c9085def7b7f2ea79995.jpg.webp@120w_90h_1e_1c_1l%7Cwatermark=1&&r=1&p=9&x=20&y=20',
+        link:'http://www.baidu.com'
+    },
+    {
+        title:'暑假五折',
+        imgurl:'http://p1.meituan.net/deal/c33472e2dd085a8f6c9085def7b7f2ea79995.jpg.webp@120w_90h_1e_1c_1l%7Cwatermark=1&&r=1&p=9&x=20&y=20',
+        link:'http://www.baidu.com'
+    },
+    {
+        title:'暑假五折',
+        imgurl:'http://p1.meituan.net/deal/c33472e2dd085a8f6c9085def7b7f2ea79995.jpg.webp@120w_90h_1e_1c_1l%7Cwatermark=1&&r=1&p=9&x=20&y=20',
+        link:'http://www.baidu.com'
+    }
+]

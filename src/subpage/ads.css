@@ -1,0 +1,9 @@
+.adBox{ width: 100%}
+.adTitle{ overflow: hidden; padding: 0 10px}
+.titleLeft{ float: left; font-size: 18px; color: #f63; line-height: 32px;}
+.titleRight{ float: right; font-size: 14px; color: #bbbbbb; line-height: 32px;}
+.adItems{ padding:10px;}
+.itemBox{ overflow: hidden;}
+.items{ width: 33.33%; box-sizing: border-box;padding: 0 5px; float: left; padding-top: 10px;}
+.items img{ width: 100%}
+.items p{ color: #333333; font-size: 14px;    white-space: nowrap;text-overflow: ellipsis; overflow: hidden;}
