@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Button } from 'react-weui';
 import Home from './container/Home/Home';
-
+import RouterMap from './router/routerMap'
 import { connect } from 'react-redux'
 import * as userinfoActions from './actions/userinfo'
 import {bindActionCreators} from 'redux'
@@ -19,7 +19,7 @@ class App extends Component {
     return (
       <div className="App">
         {
-          this.state.initDone?<Home></Home>:<div>正在加载...</div>
+          this.state.initDone?<RouterMap></RouterMap>:<div>正在加载...</div>
         }
       </div>
     );
@@ -28,7 +28,7 @@ class App extends Component {
       
     let cityName = localStore.getItem(CITYNAME)
     if(cityName==null){
-      cityName = '深圳'
+      cityName = '北京'
     }
     //
     this.props.userinfoActions.updateCity({

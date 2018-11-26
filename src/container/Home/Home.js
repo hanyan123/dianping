@@ -7,6 +7,8 @@ import Ads from '../../subpage/ads'
 import List from '../../subpage/homeList'
 import {getApi} from '../../fetch/get'
 import {InfiniteLoader} from 'react-weui'
+
+
 class Home extends React.Component {
     constructor(props){
         super(props)

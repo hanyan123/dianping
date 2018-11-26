@@ -4,7 +4,6 @@ import './HomeHeader.css'
 import down from '../../assets/images/down.png'
 import search from '../../assets/images/search.png'
 import user from '../../assets/images/user.png'
-
 import { resolve } from 'any-promise';
 
 
@@ -20,8 +19,8 @@ class HomeHeader extends React.Component {
 
     render (){
         return (
-            <div className="header">
-                <div className="location">
+            <div className="header" >
+                <div className="location" onClick={this.goCity.bind(this)}>
                     <span className="current">{this.props.currentCity.city}</span>
                     <span className="citySelect"><img src={down} /></span>
                 </div>
@@ -36,6 +35,10 @@ class HomeHeader extends React.Component {
                 </div>
             </div>
         )
+    }
+    goCity(){
+        //console.log(this.props)
+        //this.props.history.push('/city')
     }
 }
 

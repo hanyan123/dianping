@@ -1,0 +1,23 @@
+.headers{
+    height: 50px;
+    background: #f63;
+    color: #ffffff; text-align: center;
+    position: relative;
+    width: 100%;
+    font-size: 14px;
+    line-height: 50px;
+}
+.headerIcon{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.headerIcon img{
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    margin-top: 15px;
+    display: block
+}

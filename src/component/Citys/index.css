@@ -1,0 +1,60 @@
+.search_city_outer {
+    background-image: linear-gradient(0,#e1e1e1,#e1e1e1 50%,transparent 50%);
+    background-position: 100% 100%;
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
+    height: 50px;
+    background-color: #f2f2f2;
+    padding: 9px 28px;
+    box-sizing: border-box;
+}
+.search_city_inner {
+    height: 32px;
+    background-color: #fff;
+    border-radius: 18px;
+    text-align: center;
+    line-height: 32px;
+    color: #999;
+}
+ .inner_text {
+    display: inline-block;
+    vertical-align: 10px;
+    margin-left: 16px;
+    position: relative;
+}
+
+.J_locate {
+    height: 50px;
+    background-color: #fff;
+    line-height: 50px;
+    text-align: center;
+}
+ .hd {
+    padding-left: 10px;
+    font-size: 14px;
+    color: #323232;
+    line-height: 30px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #e2e2e2;
+    font-weight: 700;
+    display: block;
+}
+ .home-place-list {
+    overflow: hidden;
+    background-color: #fff;
+}
+.home-place-list ul {
+    font-size: 0;
+}
+.home-place-list li {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    display: inline-block;
+    width: 33%;
+    line-height: 48px;
+    border-bottom: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+    text-align: center;
+    color: #323232;
+    font-size: 16px;
+}
